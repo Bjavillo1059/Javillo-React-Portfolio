@@ -1,0 +1,11 @@
+[
+    {
+        "appLink": "https://github.com/Bjavillo1059/Nutritional-Value",
+        "title": "NutriVal",
+        "description": "A web application that allows users to search for food items and their nutritional value. The user can also create a custom food item and add it to their profile.",
+        "githubLink": "https://bjavillo1059.github.io/Nutritional-Value/",
+        "image": "./img/NutriVal snip.PNG",
+        "alt": "NutriVal",
+        "id": "nutri-val"
+    }
+]
