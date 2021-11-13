@@ -7,17 +7,7 @@ function Projects() {
     <>
       <section className="projects-content" id="projectsContent">
         <div className="project-info-container d-none text-center p-2">
-          <h3>*Projects*</h3>
-          <p className="projects-img">
-            <a href="https://github.com/Bjavillo1059">
-              <img
-                src="././img/garden photo.JPG"
-                alt="garden photo"
-                id="garden-image"
-              />
-            </a>
-            *Click photo to view GitHub*
-          </p>
+          <h3>Projects</h3>                
         </div>
         <div>
           {" "}
