@@ -9,6 +9,15 @@ function Header() {
 
         <ul>
             <li>
+                <a href="#about-me" className="navbar-links" variant="primary">About Me</a>
+            </li>
+            <li>
+                <a href="#misc-info" className="navbar-links">Miscellaneous</a>
+            </li>
+            <li>
+                <a href="#projects-info" className="navbar-links">Projects</a>
+            </li>
+            <li>
                 <a href="#contact-info" className="navbar-links">Click for Contact_Info</a>
             </li>
         </ul>

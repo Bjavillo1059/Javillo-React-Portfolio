@@ -1,30 +1,30 @@
 import React from "react";
-import footer from "../footer.json";
+// import footer from "../footer.json";
 // import FooterCard from "./FooterCard";
 
 
 function Footer() {
   return (
-    <footer class="text-center display-7 fw-bold">
+    <footer className="text-center display-7 fw-bold">
 
         <div>
-            <ul class="p-1" id="contact-info">Contact Info:
+            <ul className="p-1" id="contact-info">Contact Info:
                 <li>
-                    <a href="https://github.com/Bjavillo1059?tab=repositories" aria-placeholder="GitHub">My GitHub
+                    <a className="footer-links" href={'https://github.com/Bjavillo1059?tab=repositories'} placeholder="GitHub">My GitHub
                         Repo</a>
                 </li>
                 <li>
-                    <a href="https://mail.google.com/mail" aria-placeholder="contact-email">brandonjavillo@gmail.com</a>
+                    <a className="footer-links" href="https://mail.google.com/mail" placeholder="contact-email">brandonjavillo@gmail.com</a>
                 </li>
                 <li>
-                    <a href="#" aria-placeholder="contact-number">(808)372-0332</a>
+                    <a className="footer-links" href="#" placeholder="contact-number">(808)372-0332</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/brandon-javillo-76724b170/"
-                        aria-placeholder="LinkedIn">LinkedIn Profile</a>
+                    <a className="footer-links" href="https://www.linkedin.com/in/brandon-javillo-76724b170/"
+                        placeholder="LinkedIn">LinkedIn Profile</a>
                 </li>
                 <li>
-                    <a href="./assets/pdf/Resume.pdf" aria-placeholder="Resume">Resume</a>
+                    <a className="footer-links" href="/pdf/Resume.pdf" placeholder="Resume">Resume</a>
                 </li>
             </ul>
         </div>

@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-bootstrap'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
-import Carousel from './components/Carousel';
+import CarouselFade from './components/Carousel';
 
 function App() {
   return (
     <>
     <Header />
-    <Carousel />
+    <CarouselFade />
     <Projects />
     <Footer />
     </>

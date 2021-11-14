@@ -58,7 +58,14 @@ section img {
 
 .navbar-links {
   text-align: right;
-  flex: auto; 
+  flex: auto;
+  color: var(--color5); 
+}
+
+.footer-links {
+  text-align: right;
+  flex: auto;
+  color: var(--color5); 
 }
 
 .carousel-item {
