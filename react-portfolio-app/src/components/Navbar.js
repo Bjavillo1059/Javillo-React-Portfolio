@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import "./Navbar.css";
 import { Button } from "./Button";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -27,8 +28,8 @@ function Navbar() {
   return (
     <nav className="navHeader navbar">
       <Router className="navHeader-center">
-        <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-          Cryptic FatDragons <i className="fas fa-dragon"/>
+        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          Cryptic<i className="fa-solid fa-dragon"/>FatDragons
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />

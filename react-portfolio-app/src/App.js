@@ -1,5 +1,6 @@
 import './App.css';
 import 'react-bootstrap';
+import React from 'react'
 import FooterBlock from './components/FooterBlock';
 import Projects from './components/Projects';
 import HeroSection from './components/HeroSection';
