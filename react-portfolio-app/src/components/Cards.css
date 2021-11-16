@@ -12,6 +12,7 @@
 }
 
 .cards {
+  color: var(--color7);
   padding: 4rem;
   background: var(--color1);
 }

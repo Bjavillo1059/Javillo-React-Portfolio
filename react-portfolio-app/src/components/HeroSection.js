@@ -6,7 +6,7 @@ import '../App.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-           <video src='/videos/video-2.mp4' autoPlay loop muted />
+           <img src='/' alt="heroCover" />
            <h1>Brandon Javillo</h1>
             <p>Let's go explore!</p>
             <div className='hero-btns'>
@@ -15,14 +15,7 @@ function HeroSection() {
                 buttonStyle='btn--outline' 
                 buttonSize='btn--large'
                 >
-                    EXPLORE
-                </Button>
-                <Button 
-                className='btns' 
-                buttonStyle='btn--primary' 
-                buttonSize='btn--large'
-                >
-                    WATCH TRAILER <i className="fas fa-play-circle" />
+                    EXPLORE <i className="fas fa-play-circle" />
                 </Button>
             </div>
         </div>

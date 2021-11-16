@@ -1,43 +1,54 @@
 import React from "react";
 import "./FooterBlock.css";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Button } from "./Button";
+import { Link } from "react-router-dom";
 
-function FooterBlock () {
+function FooterBlock() {
   return (
-    <footer className='navFooter' >
+    <div className="footer-container">
 
-        <Router>
-            <ul className="p-1" id="contact-info">Contact Info:
-                <li>
-                    <Link className="footer-links" to={'https://github.com/Bjavillo1059?tab=repositories'} placeholder="GitHub">My GitHub Repo
-                    </Link>
-                </li>
-                <li>
-                    <Link className="footer-links" to="https://mail.google.com/mail" placeholder="contact-email">brandonjavillo@gmail.com
-                    </Link>
-                </li>
-                <li>
-                    <Link className="footer-links" to="#" placeholder="contact-number">(808)372-0332
-                    </Link>
-                </li>
-                <li>
-                    <Link className="footer-links" to="https://www.linkedin.com/in/brandon-javillo-76724b170/"
-                        placeholder="LinkedIn">LinkedIn Profile
-                    </Link>
-                </li>
-                <li>
-                    <Link className="footer-links" to="/pdf/Resume.pdf" placeholder="Resume">Resume
-                    </Link>
-                </li>
-            </ul>
-        </Router>
-
-
-        <h5>Made with Blood Sweat and Tears!</h5>
-        <p>
-            God Bless America!
+      <div className="footer-links">
+        <div className="footer-link-wrapper">
+          <div className="footer-link-items">
+            <h2>Contact Info</h2>
+            <Link to="https://mail.google.com/mail" className="footer-link-tab">My Email</Link>
+            <Link to="#" className="footer-link-tab">(808)372-0332</Link>
+          </div>
+          <div className="footer-link-items">
+            <h2>Social Media</h2>
+            <Link to="https://www.linkedin.com/in/brandon-javillo-76724b170?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJadsP3i0RKOWExYtbtt4XQ%3D%3D" className="footer-link-tab">
+              LinkedIn
+            </Link>
+            <Link to="https://www.instagram.com/ckretjay/" className="footer-link-tab">Instagram</Link>
+            <Link to="https://www.facebook.com/brandon.javillo" className="footer-link-tab">Facebook</Link>
+          </div>
+          <div className="footer-link-items">
+            <h2>Other Links</h2>
+            <Link to="https://github.com/Bjavillo1059" className="footer-link-tab">GitHub</Link>
+            <Link to="./pdf/Resume.pdf" className="footer-link-tab">Resume</Link>
+          </div>
+        </div>
+      </div>
+      <section className="footer-subscription">
+        <p className="footer-subscription-heading">
+          Made with Blood Sweat and Tears! Come join me in exploring this world!
         </p>
-    </footer>
+        <p className="footer-subscription-text">
+          You can subscribe if you like at any time!
+        </p>
+        <div className="input-areas">
+          <form>
+            <input
+              className="footer-input"
+              name="email"
+              type="email"
+              placeholder="Enter your email"
+            />
+            <Button buttonStyle="btn--outline">Subscribe</Button>
+          </form>
+        </div>
+      </section>
+    </div>
   );
 }
 

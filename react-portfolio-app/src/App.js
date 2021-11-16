@@ -1,24 +1,26 @@
-import './App.css';
-import 'react-bootstrap';
-import React from 'react'
-import FooterBlock from './components/FooterBlock';
-import Projects from './components/Projects';
-import HeroSection from './components/HeroSection';
-import Navbar from './components/Navbar';
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from './components/pages/Home';
+import "./App.css";
+import "react-bootstrap";
+
+import Miscellaneous from "./components/Misc";
+import Projects from "./components/Projects";
+import AboutMe from "./components/AboutMe";
+import Navbar from "./components/Navbar";
+import Home from "./components/pages/Home";
 
 function App() {
   return (
     <>
-    <Router>
-    <Navbar />
-    <Switch>
-      <Route path="/" exact component={Home} />
-    <HeroSection />
-    <FooterBlock />
-    </Switch>
-    </Router>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/aboutme" component={AboutMe} />
+          <Route path="/misc" component={Miscellaneous} />           
+        </Switch>
+      </Router>
     </>
   );
 }
