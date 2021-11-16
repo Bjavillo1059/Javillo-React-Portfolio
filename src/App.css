@@ -5,14 +5,10 @@
   --color4: rgb(209, 178, 143);
   --color5: rgb(109, 129, 82);
   --color6: #7b1fb1;
-  --color7: rgb(65, 17, 75); 
+  --color7: rgb(65, 17, 75);
   --font-family: cursive;
   --font-family-2: Arial;
   --font-family-3: sans-serif;
-}
-
-body {
-  background-color: var(--color4);
 }
 
 * {
@@ -24,8 +20,8 @@ body {
 
 .home,
 .aboutMe,
-.miscInfo,
-.projectsInfo {
+.products,
+.contactInfo {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -34,25 +30,28 @@ body {
 }
 
 .aboutMe {
+  background-image: url('/images/img-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: var(--color4);
   font-size: 100px;
 }
 
-.miscInfo {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.projectsInfo {
+.projects {
+  background-image: url('/images/img-1.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: var(--color4);
+  font-size: 100px;
+}
+
+.contactInfo {
+  background-image: url('/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--color4);
   font-size: 100px;
 }

@@ -1,13 +1,12 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./App.css";
-import "react-bootstrap";
-
-import Miscellaneous from "./components/pages/MiscMain";
-import AboutMeMain from "./components/pages/AboutMeMain";
-import Navbar from "./components/Navbar";
-import Home from "./components/pages/Home";
-import ProjectsMain from "./components/pages/ProjectsMain";
+import React from 'react';
+import Navbar from './components/Navbar';
+import './App.css';
+import Home from './components/pages/Home';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import AboutMe from './components/pages/AboutMe';
+import Projects from './components/pages/Projects';
+import ContactInfo from './components/pages/ContactInfo';
+import Misc from './components/pages/Misc';
 
 function App() {
   return (
@@ -15,10 +14,11 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Home />
-          <ProjectsMain />
-          <AboutMeMain />
-          <Miscellaneous />                
+          <Route path='/' exact component={Home} />
+          <Route path='/aboutMe' component={AboutMe} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/contactInfo' component={ContactInfo} />
+          <Route path='/miscInfo' component={Misc} />
         </Switch>
       </Router>
     </>

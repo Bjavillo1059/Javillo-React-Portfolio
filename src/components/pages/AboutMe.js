@@ -1,19 +1,21 @@
 import React from "react";
 import "../../App.css";
+import "../AboutMe.css";
 
 export default function AboutMe() {
   return (
-    <>
+    <div className='aboutMe-container'>
+      <img src='/images/img-9.JPG' alt='zionPark'/>
       <h1 className="aboutMe">ABOUT ME</h1>
-      <p>
+      <p className="aboutMe-text">
         My name is Brandon Javillo and I am a recently retired US Army Veteran,
         proud to have served and loved every minute of the traveling and
         relationships I've built along the way! Currently I am married to the
         most beautiful, loving, caring, and amazing woman and I have 4 children.
         I spent 20 years in the military as an aircraft electrician and loved my
         job! I left the Army earlier than I really wanted to, but moved on to a
-        bigger and better future with computer coding. I have chosen to go into
-        something that I enjoy and look forward to learning anything and
+        bigger and better future. I have chosen to get into
+        something that I feel some joy out of, I look forward to learning anything and
         everything I can! I attended some college at Austin Peay State
         University and Pierce Community College, emphasis in the Healthcare
         industry and Electrical Engineering & Development. I have a cumilative
@@ -43,6 +45,6 @@ export default function AboutMe() {
         department supervision, written, verbal communications and delivering
         technical training under the guidance of organization policies..
       </p>
-    </>
+    </div>
   );
 }

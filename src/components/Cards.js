@@ -1,36 +1,51 @@
-import React from "react";
-import Carditem from "./Carditem";
-import "./Cards.css";
-import Projects from "./Projects";
-import AboutMe from "./AboutMe";
-import Misc  from "./Misc";
+import React from 'react';
+import './Cards.css';
+import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className="cards">
-      <h1>Take a look around!</h1>
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          <ul className="cards__items">
-              <Carditem 
-              src="./img/Deadhorse point.jpg"
-              text="Here's a little about myself!"
-              label="About Me"
-              path={ AboutMe }
-              />              
-              <Carditem 
-              src="./img/projects cover.jpg"
-              text="Take a look at a few projects that I've created."
-              label="Projects"
-              path={ Projects }>
-                Take a look at a few projects that I've created.
-              </Carditem>              
-              <Carditem 
-              src="./img/Deadhorse point.jpg"
-              text="Read some extra info about me and who I am in everyday life!"
-              label="Miscellaneous"
-              path={ Misc }
-              />              
+    <div className='cards'>
+      <h1>Feel Free to Take a Look Around!</h1>
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/img-3.jpg'
+              className='cards__item__item1'
+              text='This is who I am if you do not like it feel free to leave'
+              label='About Me'
+              path='/aboutMe'
+            />
+            <CardItem
+              src='images/img-15.jpg'
+              className='cards__item__item1'
+              text='Take a Look at a Few Projects That I have Created'
+              label='Pojects'
+              path='/projects'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/img-10.PNG'
+              className='cards__item__item1'
+              text='Electronics, Music, VidoeGames, Tinkering, Guns, Family'
+              label='Hobbies'
+              path='/'
+            />
+            <CardItem
+              src='images/img-4.jpg'
+              className='cards__item__item1'
+              text='I am an Open Book!'
+              label='Photos'
+              path='/products'
+            />
+            <CardItem
+              src='images/img-8.jpg'
+              className='cards__item__item1'
+              text='Be Kind, and Help Your Fellow Americans to Get Through to Another Day'
+              label='Miscellaneous'
+              path='/miscInfo'
+            />
           </ul>
         </div>
       </div>

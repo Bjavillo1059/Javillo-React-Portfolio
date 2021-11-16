@@ -4,7 +4,7 @@
         "title": "NutriVal",
         "description": "A web application that allows users to search for food items and their nutritional value. The user can also create a custom food item and add it to their profile.",
         "githubLink": "https://bjavillo1059.github.io/Nutritional-Value/",
-        "image": "/img/NutriVal snip.PNG",
+        "image": "/images/img-13.PNG",
         "alt": "NutriVal",
         "id": "nutri-val"
     },
@@ -13,7 +13,7 @@
         "title": "PWA Budget Tracker",
         "description": "An on and offline application the can add and subtract expenses from a budget with or without a connection.  When transactions are entered offline the data is stored and cached until an online connection is established, once connection is on the data is updated and saved to application.",
         "githubLink": "https://bjavillo-pwa-budget-tracker.herokuapp.com/",
-        "image": "/img/PWA tracker snip.PNG",
+        "image": "/images/img-16.PNG",
         "alt": "BudTrack",
         "id": "budget-tracker"
     },
@@ -22,7 +22,7 @@
         "title": "Workout Tracker",
         "description": "An application that is able to view, create, and track daily workouts. A User can track multiple exercises in a workout on a given day. A User can also track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, a User can track by distance traveled.",
         "githubLink": "https://bjavillo-fit-tracker-2021.herokuapp.com/",
-        "image": "/img/workout-snip.PNG",
+        "image": "/images/workout-snip.PNG",
         "alt": "FitTrack",
         "id": "workout-tracker"
     },
@@ -31,7 +31,7 @@
         "title": "Code Quiz",
         "description": "Created a little Javascript quiz for familiarity and understanding.",
         "githubLink": "https://bjavillo1059.github.io/My-Code-Quiz/",
-        "image": "/img/Code Quiz.PNG",
+        "image": "/images/Code Quiz.PNG",
         "alt": "CodeQuiz",
         "id": "code-quiz"
     },
@@ -40,7 +40,7 @@
         "title": "Password Generator",
         "description": "A web application that allows users to generate a password randomly.",
         "githubLink": "https://bjavillo1059.github.io/password-generator/",
-        "image": "/img/pass gen photo.PNG",
+        "image": "/images/pass gen photo.PNG",
         "alt": "PassGen",
         "id": "pass-gen"
     }
