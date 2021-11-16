@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import "./Navbar.css";
 import { Button } from "./Button";
+import ProjectsMain from "./pages/ProjectsMain";
+import Home from "./pages/Home";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -18,9 +20,9 @@ function Navbar() {
     }
   };
 
-  // useEffect(() => {
-  //   showButton();
-  // }, []);
+  useEffect(() => {
+    showButton();
+  }, []);
 
   window.addEventListener("resize", showButton);
 
@@ -36,13 +38,16 @@ function Navbar() {
         
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/home" className="navbar-links" onClick={closeMobileMenu}>
+              <Link 
+              to={ Home } 
+              className="navbar-links" 
+              onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li>
               <Link
-                to='/img/Deadhorse point.jpg'
+                to={require('./img/Deadhorse point.jpg')}
                 className="navbar-links"
                 onClick={closeMobileMenu}
               >
@@ -51,7 +56,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to='/img/serene.jpg'
+                to='./img/serene.jpg'
                 className="navbar-links"
                 onClick={closeMobileMenu}
               >
@@ -60,10 +65,11 @@ function Navbar() {
             </li>
             <li>
               <Link
-                to='/img/projects cover.jpg'
+                to='/projectsmain'
+                path='/ProjectsMain'
                 className="navbar-links"
                 onClick={closeMobileMenu}
-              >
+              >                
                 Projects
               </Link>
             </li>

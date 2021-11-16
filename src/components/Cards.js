@@ -1,6 +1,9 @@
 import React from "react";
 import Carditem from "./Carditem";
 import "./Cards.css";
+import Projects from "./Projects";
+import AboutMe from "./AboutMe";
+import Misc  from "./Misc";
 
 function Cards() {
   return (
@@ -13,19 +16,20 @@ function Cards() {
               src="./img/Deadhorse point.jpg"
               text="Here's a little about myself!"
               label="About Me"
-              path="/aboutMe"
+              path={ AboutMe }
               />              
               <Carditem 
               src="./img/projects cover.jpg"
               text="Take a look at a few projects that I've created."
               label="Projects"
-              path="/projectsInfo"
-              />              
+              path={ Projects }>
+                Take a look at a few projects that I've created.
+              </Carditem>              
               <Carditem 
               src="./img/Deadhorse point.jpg"
               text="Read some extra info about me and who I am in everyday life!"
               label="Miscellaneous"
-              path="/miscInfo"
+              path={ Misc }
               />              
           </ul>
         </div>

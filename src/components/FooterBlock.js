@@ -2,6 +2,8 @@ import React from "react";
 import "./FooterBlock.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
+import { ResumeActive } from "./pdf/Resume.pdf";
+import Projects from './Projects';
 
 function FooterBlock() {
   return (
