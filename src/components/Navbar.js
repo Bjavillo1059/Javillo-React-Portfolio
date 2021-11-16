@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
-import "./Navbar.css";
-import { Button } from "./Button";
-import ProjectsMain from "./pages/ProjectsMain";
-import Home from "./pages/Home";
+import React, { useState, useEffect } from 'react';
+import { Button } from './Button';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -24,62 +22,58 @@ function Navbar() {
     showButton();
   }, []);
 
-  window.addEventListener("resize", showButton);
+  window.addEventListener('resize', showButton);
 
   return (
-    <nav className="navHeader navbar">
-      <Router className="navHeader-center">
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          Cryptic<i className="fa-solid fa-dragon"/>FatDragons
-        </Link>
-        <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"} />
-        </div>
-        
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link 
-              to={ Home } 
-              className="navbar-links" 
-              onClick={closeMobileMenu}>
+    <>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            Kryptik <i className='fa-solid fa-dragon' /> Dragon
+            
+          </Link>
+          <div className='menu-icon' onClick={handleClick}>
+            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className='nav-item'>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li>
+            <li className='nav-item'>
               <Link
-                to={require('./img/Deadhorse point.jpg')}
-                className="navbar-links"
+                to='/aboutMe'
+                className='nav-links'
                 onClick={closeMobileMenu}
               >
                 About Me
               </Link>
             </li>
-            <li>
+            <li className='nav-item'>
               <Link
-                to='./img/serene.jpg'
-                className="navbar-links"
+                to='/projects'
+                className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Miscellaneous
-              </Link>
-            </li>
-            <li>
-              <Link
-                to='/projectsmain'
-                path='/ProjectsMain'
-                className="navbar-links"
-                onClick={closeMobileMenu}
-              >                
                 Projects
               </Link>
             </li>
+
+            <li>
+              <Link
+                to='/contact-info'
+                className='nav-links-mobile'
+                onClick={closeMobileMenu}
+              >
+                Contact Info
+              </Link>
+            </li>
           </ul>
-          {/* {button && (
-            <Button buttonStyle="btn--outline">Click for Contact_Info</Button>
-          )} */}
-        
-      </Router>
-    </nav>
+          {button && <Button buttonStyle='btn--outline'>CONTACT INFO</Button>}
+        </div>
+      </nav>
+    </>
   );
 }
 
