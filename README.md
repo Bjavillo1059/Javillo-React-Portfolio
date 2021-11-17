@@ -19,7 +19,7 @@ Availability: https://github.com/briancodex
 
 ## Deployment
 
-[Kryptik Dragon deployed site](https://github.com/Bjavillo1059/Javillo- React- Portfolio)
+[Kryptik Dragon deployed site](https://61949596ccce2200073e4a31--pensive-sinoussi-0c24a1.netlify.app/)
 
 <img src="./public/images/img-React-Portfolio.PNG" alt="KryptiK Dragon" />
 
