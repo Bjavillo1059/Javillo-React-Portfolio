@@ -21,7 +21,7 @@ Availability: https://github.com/briancodex
 
 [Kryptik Dragon deployed site](https://github.com/Bjavillo1059/Javillo- React- Portfolio)
 
-<img src="./public/images/img- React- Portfolio.PNG" alt="KryptiK Dragon" />
+<img src="./public/images/img-React-Portfolio.PNG" alt="KryptiK Dragon" />
 
 
 ## User Story
