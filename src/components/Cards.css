@@ -71,11 +71,6 @@
   overflow: hidden;
 }
 
-.fade-img {
-  animation-name: fade-img;
-  animation-duration: 2s;
-}
-
 .cards__item__pic-wrap::after {
   content: attr(data-category);
   position: absolute;
@@ -114,15 +109,9 @@
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: var(--color2);
   font-size: 18px;
   line-height: 24px;
-}
-
-@media only screen and (min-width: 1200px) {
-  .content__blog__container {
-    width: 84%;
-  }
 }
 
 @media only screen and (min-width: 1024px) {

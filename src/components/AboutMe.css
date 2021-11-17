@@ -32,7 +32,7 @@ img {
 }
 
 .aboutMe-container > h1 {
-  padding: 4rem;
+  padding: 2rem;
   font-family: var(--font-family);
   color: var(--color3);
   font-size: 32px;
@@ -42,8 +42,9 @@ img {
 .aboutMe-container > p {
   margin-top: 8px;
   color: var(--color1);
-  font-size: 20px;
+  font-size: 16px;
   font-family: var(--font-family);
+  height: 100vh;
 }
 
 @media screen and (max-width: 960px) {

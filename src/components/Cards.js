@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-function Cards() {
+export default function Cards() {
   return (
     <div className='cards'>
       <h1>Feel Free to Take a Look Around!</h1>
@@ -52,5 +52,3 @@ function Cards() {
     </div>
   );
 }
-
-export default Cards;

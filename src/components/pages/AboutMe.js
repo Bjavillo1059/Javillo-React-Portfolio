@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 import "../AboutMe.css";
+import Footer from "../Footer";
 
 export default function AboutMe() {
   return (
@@ -45,6 +46,7 @@ export default function AboutMe() {
         department supervision, written, verbal communications and delivering
         technical training under the guidance of organization policies..
       </p>
+      <Footer />
     </div>
   );
 }
