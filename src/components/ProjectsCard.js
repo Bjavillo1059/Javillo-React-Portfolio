@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function ProjectsCard(props) {
   return (
     <li className='projects__item'>
-      <Link className='projects__item__link' to={props.path}>
+      <a className='projects__item__link' href={props.href}>
         <figure className='projects__item__pic-wrap' data-category={props.label}>
           <img
             className='projects__item__img'
@@ -15,7 +15,7 @@ export default function ProjectsCard(props) {
         <div className='projects__item__info'>
           <h3 className='projects__item__text'>{props.text}</h3>
           </div>
-      </Link>
+      </a>
     </li>
   );
 }
