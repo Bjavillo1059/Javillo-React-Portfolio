@@ -11,49 +11,63 @@ function Footer() {
           <div className="footer-link-items">
             <h2>Contact Info</h2>
 
-            <Link to="https://mail.google.com/mail" className="footer-link-tab">
+            <li>
+            <a href="mailto:https://mail.google.com/mail" className="footer-link-tab">
               My Email
-            </Link>
-            <Link to="#" className="footer-link-tab">
+            </a>
+            </li>
+            <li>
+            <a href="tel:8083720332" className="footer-link-tab">
               (808)372-0332
-            </Link>
+            </a>
+            </li>
           </div>
 
           <div className="footer-link-items">
             <h2>Social Media</h2>
-
-            <Link
-              to="https://www.linkedin.com/in/brandon-javillo-76724b170?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJadsP3i0RKOWExYtbtt4XQ%3D%3D"
+            
+            <li>
+            <a
+              href="https://www.linkedin.com/in/brandon-javillo-76724b170?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJadsP3i0RKOWExYtbtt4XQ%3D%3D"
               className="footer-link-tab"
             >
               LinkedIn
-            </Link>
-            <Link
-              to="https://www.instagram.com/ckretjay/"
+            </a>
+            </li>
+            <li>
+            <a
+              href="https://www.instagram.com/ckretjay/"
               className="footer-link-tab"
             >
               Instagram
-            </Link>
-            <Link
-              to="https://www.facebook.com/brandon.javillo"
+            </a>
+            </li>
+            <li>
+            <a
+              href="https://www.facebook.com/brandon.javillo"
               className="footer-link-tab"
             >
               Facebook
-            </Link>
+            </a>
+            </li>            
           </div>
 
           <div className="footer-link-items">
             <h2>Other Links</h2>
-
-            <Link
-              to="https://github.com/Bjavillo1059"
+            
+            <li>
+            <a
+              href="https://github.com/Bjavillo1059"
               className="footer-link-tab"
             >
               GitHub
-            </Link>
-            <Link to="./pdf/Resume.pdf" className="footer-link-tab">
+            </a>
+            </li>
+            <li>
+            <a href="./pdf/Resume.pdf" className="footer-link-tab">
               Resume
-            </Link>
+            </a>
+            </li>            
           </div>
           
         </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 import "../Misc.css";
+import Footer from "../Footer";
 
 function Misc() {
   return (
@@ -25,6 +26,7 @@ function Misc() {
         please spread the awareness. THE MILITARY SUICIDE AWARENESS! Say Hi, be
         kind, and help your fellow Americans to get through to another day!
       </p>
+      <Footer />
     </div>
   );
 }

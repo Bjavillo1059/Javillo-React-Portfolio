@@ -1,6 +1,12 @@
 import React from 'react';
 import '../../App.css';
+import Footer from '../Footer';
 
 export default function ContactInfo() {
-  return <h1 className='contactInfo'>CONTACT INFO</h1>;
+  return (
+    <div className="contact-info">
+  <h1 className='contact--info'>CONTACT INFO</h1>
+  <Footer />
+  </div>
+  )
 }

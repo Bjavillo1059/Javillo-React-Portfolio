@@ -21,7 +21,7 @@ export default function Cards() {
               className='cards__item__item1'
               text='Take a Look at a Few Projects That I have Created'
               label='Pojects'
-              path='/projects'
+              path='/projectsMain'
             />
           </ul>
           <ul className='cards__items'>
@@ -37,7 +37,7 @@ export default function Cards() {
               className='cards__item__item1'
               text='I am an Open Book!'
               label='Photos'
-              path='/products'
+              path='/' // adding a photo galler for later use
             />
             <CardItem
               src='images/img-8.jpg'
