@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cards.css';
-import CardItem from './CardItem';
+import CardItem from './Carditem';
 
 
 export default function Cards() {
@@ -38,7 +38,7 @@ export default function Cards() {
               className='cards__item__item1'
               text='I am an Open Book!'
               label='Photos'
-              path='/' // adding a photo galler for later use
+              path='/' // adding a photo gallery for later use
             />
             <CardItem
               src='images/img-8.jpg'
