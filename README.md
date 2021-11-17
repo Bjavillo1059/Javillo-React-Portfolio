@@ -8,14 +8,6 @@ Code: react-website-v1
 Availability: https://github.com/briancodex
  -->
 
-## Description
-
-
-
-## Technology used
-
--  React.js
--  React- Boostrap
 
 ## Deployment
 
@@ -23,6 +15,46 @@ Availability: https://github.com/briancodex
 
 <img src="./public/images/img-React-Portfolio.PNG" alt="KryptiK Dragon" />
 
+## Description
+
+Updated version of my porrfolio using React.js
+
+## Process
+
+When a User opens the page, the User will be presented with a landing page that consist of a Navbar, Hero Section, Cards Section, and a Footer.  The Navbar and Footer is always present with every page that is rendered.
+
+    - Navbar
+        - Online tag name
+        - Home
+            - When link is clicked display will render the homepage
+        - About Me
+            - When link is clicked diplay will render the About Me page
+        - Portfolio
+            - When link is clicked display will render a projects page that showcases 5 web/apps that has been created
+        - CONTACT INFO
+            - when link is clicked display will render the Footer with contact information
+
+    - Hero Section
+        - This section consist of my name and a picture that shows the expression of being open to a anything.  Explore text is displayed for a User to look around if they wish.
+
+    - Cards Section
+        - Text signifying the User to feel free to look around
+        - Five cards are displayed, About Me, Projects, and Miscellaneous all render separate pages.  Hobbies and Photos do not render anything and will be updated for future use.
+            - About Me
+            - Projects
+            - Hobbies
+            - Photos
+            - Miscellaneous
+
+    - Footer Section
+        - Contact information is displayed for a User to have access.  A Subscribe input and button is present, but does not render anything or save; section will be updated for future use.    
+
+
+## Technology used
+
+-  React.js
+-  React- Boostrap
+-  Netlify 
 
 ## User Story
 
@@ -52,9 +84,6 @@ Availability: https://github.com/briancodex
 - WHEN I view the footer
 - THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and - their profile on a third platform (Stack Overflow, Twitter)
 
-## Process
-
-When a User opens 
 
 ## Contact Info
 
