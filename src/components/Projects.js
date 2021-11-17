@@ -3,9 +3,7 @@ import "./Projects.css";
 import ProjectsCard from "./ProjectsCard";
 
 export default function Portfolio() {
-  const NutriVal = {
 
-  }
 
   return (
     <div className="projects__cards">
