@@ -11,7 +11,7 @@ Availability: https://github.com/briancodex
 
 ## Deployment
 
-[Kryptik Dragon deployed site](https://61949596ccce2200073e4a31--pensive-sinoussi-0c24a1.netlify.app/)
+[Kryptik Dragon deployed site](https://6194a126cd6e9d0007fb5a60--pensive-sinoussi-0c24a1.netlify.app/)
 
 <img src="./public/images/img-React-Portfolio.PNG" alt="KryptiK Dragon" />
 
